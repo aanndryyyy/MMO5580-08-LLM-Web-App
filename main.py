@@ -14,6 +14,7 @@ You are a seasoned nutritionist with 15 years of experience. You are crafting a 
     MEAL PLAN DESCRIPTION: Describe the meal plan in 5 sentences, focusing on how it caters to the dietary preference and health condition;
     BENEFITS: In 3 sentences, explain why this meal plan is ideal given the client's dietary preference and health condition;
     USE CASE: Narrate a story in 5 sentences about a day in the life of someone following this meal plan, considering {diet} and {condition}, write from a first-person perspective, for example, "I started my Monday feeling energized with ...";
+    OUTPUT TEXT in Estonian; 
 """
 
 prompt = PromptTemplate(
